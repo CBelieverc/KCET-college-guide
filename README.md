@@ -1,9 +1,9 @@
 
 <h1 align="center">
   <br>
-  <a href="[http://www.amitmerchant.com/electron-markdownify](https://th.bing.com/th/id/R.42826109dfa6329f5604628c48c83728?rik=rijkzvlBMikgaA&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20130504043800%2flogopedia%2fimages%2fa%2fa3%2fKCET.jpg&ehk=6wshvUMOYiT4RWQi0TWGzSRyxqUvvrrI4gI1HHE1o3g%3d&risl=&pid=ImgRaw&r=0)"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href=["[http://www.amitmerchant.com/electron-markdownify](https://th.bing.com/th/id/R.42826109dfa6329f5604628c48c83728?rik=rijkzvlBMikgaA&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20130504043800%2flogopedia%2fimages%2fa%2fa3%2fKCET.jpg&ehk=6wshvUMOYiT4RWQi0TWGzSRyxqUvvrrI4gI1HHE1o3g%3d&risl=&pid=ImgRaw&r=0)](https://www.logolynx.com/images/logolynx/49/49944e315d448c466fc6c512bf254a3f.png)"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
   <br>
-  Markdownify
+  Kcet Rank Predictor
   <br>
 </h1>
 
