@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
     //ActivityMainBinding binding
@@ -28,11 +29,22 @@ public class MainActivity2 extends AppCompatActivity {
         colleBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(getApplicationContext(),collegeList.class);
+                Intent intent1=new Intent(getApplicationContext(),prev.class);
                 startActivity(intent1);
                 finish();
             }
         });
+
+        TextView prevqp =findViewById(R.id.previous);
+        prevqp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1=new Intent(getApplicationContext(),prev.class);
+                startActivity(intent1);
+                finish();
+            }
+        });
+
 
         Button rankbtn =findViewById(R.id.rank);
         rankbtn.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +59,7 @@ public class MainActivity2 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),prev.class);
+                Intent intent=new Intent(getApplicationContext(),collegeList.class);
                 startActivity(intent);
             }
         });

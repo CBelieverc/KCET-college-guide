@@ -17,10 +17,22 @@
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_subjects.xml" value="0.1308876811594203" />
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_webview.xml" value="0.1308876811594203" />
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_college_list.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_edit_profile.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_junk.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_login.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_main2.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_prev.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_rank_predict.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_register.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_subjects.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/activity_webview.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16/app/src/main/res/layout/content_junk.xml" value="0.17708333333333334" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
