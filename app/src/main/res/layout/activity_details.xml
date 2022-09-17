@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details"
+    android:background="@drawable/back31_">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KCET Application Form: "
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@drawable/rectanle"
+            android:padding="10dp"
+
+            android:textSize="18dp"
+            android:layout_marginLeft="100dp"
+
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="The Karnataka Examinations Authority (KEA) will tentatively release the registration window for interested candidates in April 2023. Candidates seeking admission through KCET 2023 were able to reapply by the deadline. Candidates must be careful to check the eligibility conditions, as applications from non-eligible candidates will not be accepted.After submitting the application form, candidates must keep the important documents with them until the admission process is completed. Candidates who appeared for the KCET 2023 can edit their application form before the document verification process by May 2023. Scroll down for more details."
+            android:textColor="@color/white"
+
+            android:textSize="17dp">
+
+        </TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KCET Application Form: "
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@drawable/rectanle"
+            android:padding="10dp"
+
+            android:textSize="18dp"
+            android:layout_marginLeft="100dp"
+
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:text="The KCET eligibility criteria state the parameters that every candidate needs to meet to apply for the examination. According to KEA, candidates must fall under the following boundary:
+
+Candidates must have passed the 2nd PUC/12th Standard/equivalent exam.
+Applicants must be Indian nationals.
+Those who are waiting for their Class 12/ PUC exam results can also apply for KCET 2023.
+Applicants who have passed their 12th standard or PUC or qualifying examination from Karnataka State Open University (KSOU) cannot appear for KCET 2023 exam.
+Applicants should have studied English, Physics, and Maths as their compulsory subjects in Class 12 and have Chemistry/Biology/Electronics/Biotechnology or Computer Science as an optional subject.
+B.E/B.Tech
+
+Candidates should have passed 10+2 or equivalent from the recognised board.
+Candidates should have Physics, Chemistry, Biology, and Mathematics.
+Candidates with a minimum of 45% (40% for SC/ST category candidates) score in PCMB subjects.
+B.Arch
+
+The candidate should have passed 10+2 or equivalent from the recognised board.
+Candidates who scored at least 50% (45% for minority categories) are eligible for the KCET examination.
+Candidates who had studied Mathematics as a subject.
+Candidates should have a valid scorecard.
+B.V. Sc. A.H
+
+Candidates who have passed 10+2 Intermediate exam from a recognised board.
+Candidates have scored 50% (45% score for reserved categories).
+Must have Physics, Chemistry, and Biology in the qualifying exam.
+KCET Application Form: Documents Required
+Applicants should keep some documents handy before filling out the KCET 2023 application form. The required documents for KCET application 2023 are as follows:
+
+Valid mobile number and email ID
+Debit card/Credit card/Net banking details
+Details of Aadhaar card
+Scanned images of signature, photograph, and left-hand thumb impression as per specifications by the authority
+Scanned images of the applicant’s parent’s left thumb impression/signature
+Educational qualification documents (Class 10th and 12th mark sheets)"
+
+            >
+
+        </TextView>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</ScrollView>
