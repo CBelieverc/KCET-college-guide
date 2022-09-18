@@ -19,6 +19,7 @@ public class prev extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
+                finish();
 
             }
         });
@@ -233,6 +234,14 @@ public class prev extends AppCompatActivity {
         intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2004-384.pdf");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2004-398.pdf");
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
+        startActivity(intent);
+        finish();
+
     }
 
 }

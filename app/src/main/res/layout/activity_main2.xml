@@ -18,8 +18,41 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@drawable/input_bg"
-            android:backgroundTint="#00ff0000">
+            android:background="#833F51B5"
+            android:backgroundTint="#833F51B5">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="165dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="63dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text="Welcome"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/null1"
@@ -38,12 +71,12 @@
                 android:layout_alignBottom="@+id/null1"
 
 
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="245dp"
+                android:layout_marginStart="1dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginEnd="12dp"
+
                 android:layout_marginBottom="-1dp"
-                android:layout_toStartOf="@+id/null1"
 
 
                 android:src="@drawable/ic_baseline_account_circle_24">
@@ -100,10 +133,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="270dp"
+                android:layout_width="75dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="225dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginTop="28dp"
                 android:src="@drawable/ranking" />
         </RelativeLayout>
         <RelativeLayout
@@ -122,8 +156,55 @@
                     android:fontFamily="@font/aclonica"
                     android:padding="10dp"
                     android:paddingStart="30dp"
-                    android:text="previous year
-                     paper"
+                    android:text="College
+
+
+                    Predictor"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/college"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00ff0000"
+                    android:padding="20dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite" />
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/school" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_margin="30dp">
+
+
+                <TextView
+                    android:id="@+id/previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:padding="10dp"
+                    android:paddingStart="25dp"
+                    android:text="previous
+                     year papers"
                     android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
                     android:textSize="25sp" />
@@ -132,10 +213,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="300dp"
+                android:layout_width="75dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="240dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginTop="28dp"
                 android:src="@drawable/exam" />
         </RelativeLayout>
         <RelativeLayout
@@ -174,11 +256,12 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="300dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="240dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/test" />
+                android:src="@drawable/test"
+                android:layout_marginTop="28dp"/>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -195,21 +278,14 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/aclonica"
                     android:padding="10dp"
-                    android:text="college list"
+                    android:text="college
+                    list"
                     android:textAllCaps="true"
                     android:paddingStart="30dp"
                     android:textColor="@color/colorWhite"
                     android:textSize="25sp" />
 
-                <Button
-                    android:id="@+id/test"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:background="#00ff0000"
-                    android:padding="25dp"
-                    android:textAllCaps="true"
-                    android:textColor="@color/colorWhite" />
+
 
                 <Button
                     android:id="@+id/collegeBTN"
@@ -225,10 +301,11 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="300dp"
+                android:layout_width="75dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="230dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginTop="28dp"
                 android:src="@drawable/school" />
         </RelativeLayout>
         <RelativeLayout
@@ -242,14 +319,14 @@
 
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="225dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/aclonica"
                     android:padding="10dp"
-                    android:text="all about Kcet
-exam"
-                    android:textAllCaps="true"
                     android:paddingStart="30dp"
+                    android:text="all about
+kcet exam"
+                    android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
                     android:textSize="25sp" />
 
@@ -277,11 +354,12 @@ exam"
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="300dp"
+                android:layout_width="75dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="240dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/documents" />
+                android:src="@drawable/documents"
+                android:layout_marginTop="28dp"/>
         </RelativeLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -290,7 +368,7 @@ exam"
             android:layout_height="wrap_content"
             android:background="@drawable/border"
             android:layout_alignParentBottom="true"
-           app:menu="@menu/menu"
+            app:menu="@menu/menu"
             />
 
     </LinearLayout>

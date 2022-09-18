@@ -15,7 +15,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#00ff0000">
+            android:background="#833F51B5">>
 
             <ImageView
                 android:id="@+id/back5"
@@ -24,18 +24,34 @@
                 android:padding="15dp"
                 android:src="@drawable/ic_baseline_arrow_back_24" />
 
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="43dp"
+                android:layout_marginEnd="19dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text="Previous Year Question Papers"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
 
 
         </RelativeLayout>
 
         <Button
             android:id="@+id/button22"
-            android:layout_marginTop="30dp"
-            android:layout_width="match_parent"
-            android:padding="15dp"
+            android:layout_width="250dp"
+            android:layout_marginStart="60dp"
             android:layout_height="wrap_content"
-            android:text="MATHEMATICS"
+            android:layout_marginTop="30dp"
             android:background="@drawable/btn_bg"
+            android:padding="15dp"
+            android:text="MATHEMATICS"
             android:textSize="22sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
@@ -43,7 +59,8 @@
         <Button
             android:id="@+id/button23"
             android:layout_marginTop="30dp"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
+            android:layout_marginStart="60dp"
             android:padding="15dp"
             android:layout_height="wrap_content"
             android:text="PHYSICS"
@@ -54,7 +71,8 @@
 
         <Button
             android:id="@+id/button24"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
+            android:layout_marginStart="60dp"
             android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
             android:text="CHEMISTRY"
@@ -67,7 +85,8 @@
         <Button
             android:id="@+id/button25"
             android:layout_marginTop="30dp"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
+            android:layout_marginStart="60dp"
             android:layout_height="wrap_content"
             android:text="BIOLOGY"
             android:padding="15dp"
@@ -80,12 +99,11 @@
             android:id="@+id/button26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ellipsize="none"
-            android:text="KEY ANSWERS"
             android:layout_marginTop="30dp"
             android:padding="15dp"
+            android:text="KEY ANSWERS"
+            android:background="#FF5722"
             android:textSize="22sp"
-            app:backgroundTint="#FF5722"
-            app:cornerRadius="800dp" />
+            app:cornerRadius="800dp"/>
     </LinearLayout>
 </ScrollView>

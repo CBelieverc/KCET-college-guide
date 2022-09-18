@@ -18,8 +18,6 @@ public class subjects extends AppCompatActivity {
         back3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(getApplicationContext(),prev.class);
-                startActivity(intent);
                 finish();
 
             }
