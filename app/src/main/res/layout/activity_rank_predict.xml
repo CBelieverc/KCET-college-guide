@@ -81,22 +81,22 @@
 
             <EditText
                 android:id="@+id/editTextNumber3"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="230dp"
-                android:ems="5"
+                android:ems="7"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
                 android:hint="PUC marks"
                 android:inputType="number"
                 android:minHeight="48dp"
-                android:paddingLeft="5dp"
+
                 android:textColorHint="@color/white"
                 android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/editTextNumber8"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="135dp"
                 android:ems="7"
@@ -136,22 +136,22 @@
 
             <EditText
                 android:id="@+id/editTextNumber9"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="230dp"
-                android:ems="5"
+                android:ems="7"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
                 android:hint="PUC marks"
                 android:inputType="number"
                 android:minHeight="48dp"
-                android:paddingLeft="5dp"
+                
                 android:textColorHint="@color/white"
                 android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/editTextNumber5"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="135dp"
                 android:ems="7"
@@ -161,7 +161,8 @@
                 android:inputType="number"
                 android:minHeight="48dp"
                 android:textColorHint="@color/white"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:visibility="visible" />
 
 
         </RelativeLayout>
@@ -191,22 +192,22 @@
 
             <EditText
                 android:id="@+id/editTextNumber10"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="230dp"
-                android:ems="5"
+                android:ems="7"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
                 android:hint="PUC marks"
                 android:inputType="number"
                 android:minHeight="48dp"
-                android:paddingLeft="5dp"
+                
                 android:textColorHint="@color/white"
                 android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/editTextNumber6"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="135dp"
                 android:ems="7"
@@ -246,23 +247,23 @@
 
             <EditText
                 android:id="@+id/editTextNumber11"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="230dp"
-                android:ems="5"
+                android:ems="7"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
                 android:hint="PUC marks"
                 android:inputType="number"
                 android:minHeight="48dp"
-                android:paddingLeft="5dp"
+                
                 android:textColorHint="@color/white"
                 android:textSize="12sp"
                 android:textStyle="normal" />
 
             <EditText
                 android:id="@+id/editTextNumber7"
-                android:layout_width="90dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="135dp"
                 android:ems="7"

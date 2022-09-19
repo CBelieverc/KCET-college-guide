@@ -69,6 +69,13 @@ public class MainActivity2 extends AppCompatActivity {
                 finish();
             }
         });
+        Button btn=findViewById(R.id.doc);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent inte=new Intent(getApplicationContext(),details.class);
+            startActivity(inte);}
+        });
 
         TextView prevqp = findViewById(R.id.previous);
         prevqp.setOnClickListener(new View.OnClickListener() {

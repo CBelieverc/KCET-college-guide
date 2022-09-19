@@ -1,106 +1,722 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".details"
-    android:background="@drawable/back31_">
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="KCET Application Form: "
-            android:textColor="@color/white"
-            android:textAllCaps="true"
-            android:background="@drawable/rectanle"
-            android:padding="10dp"
-
-            android:textSize="18dp"
-            android:layout_marginLeft="100dp"
-
-            >
-        </TextView>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="The Karnataka Examinations Authority (KEA) will tentatively release the registration window for interested candidates in April 2023. Candidates seeking admission through KCET 2023 were able to reapply by the deadline. Candidates must be careful to check the eligibility conditions, as applications from non-eligible candidates will not be accepted.After submitting the application form, candidates must keep the important documents with them until the admission process is completed. Candidates who appeared for the KCET 2023 can edit their application form before the document verification process by May 2023. Scroll down for more details."
-            android:textColor="@color/white"
-
-            android:textSize="17dp">
-
-        </TextView>
-    </RelativeLayout>
-    <RelativeLayout
+    android:background="@drawable/back31_"
+    tools:context=".MainActivity2"
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="@drawable/back31_">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#833F51B5"
+            android:backgroundTint="#833F51B5">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="165dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="63dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text="All about Kcet exam"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/back11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+
+                android:layout_marginBottom="-1dp"
+
+
+                android:src="@drawable/ic_baseline_arrow_back_24">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KCET Application Form: "
-            android:textColor="@color/white"
-            android:textAllCaps="true"
-            android:background="@drawable/rectanle"
-            android:padding="10dp"
+            android:verticalScrollbarPosition="right">
 
-            android:textSize="18dp"
-            android:layout_marginLeft="100dp"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectanle"
+                android:padding="10dp"
+                android:text="KCET Eligibility Criteria 2023"
+                android:textColor="@color/white"
+                android:textSize="20dp">
 
-            >
-        </TextView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_marginTop="100dp"
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="KCET Eligibility Criteria 2023- Karnataka Examinations Authority will release the complete eligibility criteria of KCET 2023 in February 2023. The KCET 2023 eligibility criteria includes the minimum age limit, educational requirement, minimum qualifying marks to be attained, nationality and more. Candidates should satisfy the Karnataka CET eligibility conditions before filling the KCET 2023 application form. The candidates those who fail to do so will not be allowed to appear in the KCET 2023. Candidates those who qualify the exam will be able to take admission in the engineering courses. Other details for the KCET 2023 eligibility criteria are provided below"
+                android:textColor="@color/white"
+                android:textSize="16dp">
+
+
+            </TextView>
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:text="The candidates those who want to appear in the exam will have to satisfy all these KCET 2023 Eligibility Criteria:">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+                android:text="1)The candidates must have passed class XII exam or its equivalent examination with Physics and Mathematics as compulsory subjects.">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+
+
+                android:text="2)Along with Physics and Mathematics, they must have passed the qualifying exam with any among Chemistry / Bio-Technology / Biology / Electronics / Computer Science as an optional subject.">
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+
+
+android:text="3)They must have English as the languages of study."      >      </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+
+
+android:text="4)Candidates belonging to the general category must have scored a minimum of 45% aggregate marks in the qualifying exam and those belonging to SC, ST, Category-I and OBC (2A, 2B, 3A, and 3B) category must have scored a minimum of 40% aggregate marks.">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+
+
+android:text="5)If a candidate had scored fewer marks in chemistry and is unable to achieve the required aggregate percentage, then the marks obtained by him/her in Bio-Technology / Biology / Electronics / Computer Science were considered. This consideration of marks was only for the determination of eligibility. It was not supposed to play any role in the determination of rank.">
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+
+
+android:text="6)The rank of the candidate will be decided on the basis of the marks obtained by them in all the three subjects in Common Entrance Test as well as in the Qualifying Examination (10+2).">            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:paddingStart="15dp"
+
+
+android:text="7)The marks of the qualifying exam and Karnataka CET 2023 will be taken in equal proportions for determining the rank of the candidate."     ></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Documents Required"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/rectanle"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:text="Applicants should keep some documents handy before filling out the KCET 2023 application form. The required documents for KCET application 2023 are as follows:"
+                android:textColor="@color/white"
+                android:textSize="16dp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+
+                android:paddingStart="15dp"
+                android:text="1)Valid mobile number and email ID">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+
+                android:paddingStart="15dp"
+android:text="2)Debit card/Credit card/Net banking details
+">
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+                android:text="3)Details of Aadhaar card"
+
+                android:textColor="@color/white"
+                android:textSize="16dp"></TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+
+                android:paddingStart="15dp"
+                android:text="4)Scanned images of signature, photograph, and left-hand thumb impression as per specifications by the authority" >
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+
+                android:paddingStart="15dp"
+                android:text="5)Scanned images of signature, photograph, and left-hand thumb impression as per specifications by the authority" >
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+
+                android:paddingStart="15dp"
+                android:text="6)Scanned images of the applicant’s parent’s left thumb impression/signature" >
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+
+                android:paddingStart="15dp"
+                android:text="7)Educational qualification documents (Class 10th and 12th mark sheets)" >
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rectanle"
+                android:padding="10dp"
+                android:text="How to Fill Out KCET Application Form"
+                android:textColor="@color/white"
+                android:textSize="19dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:text="The application form for KCET 2023 has been released online on the official website. Candidates can follow the steps below to know the KCET application process:"
+                android:textColor="@color/white"
+                android:textSize="16dp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:text="Stage 1 – KCET 2023 Registration"
+                android:textColor="@color/white"
+
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+android:text="KCET registration process can be completed by following the steps mentioned below:"
+                android:textColor="@color/white"
+                android:textSize="16dp"></TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="25dp"
+                android:text="1st Step: Visit the official website: kea.kar.nic.in."
+                android:onClick="kcet"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                tools:ignore="OnClick" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="25dp"
+                android:text="2nd Step: Click on Admissions and select UG CET 2023."
+
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="25dp"
+                android:text="3rd Step: On the new screen click on UGCET – 2023 Online Application Registration Link."
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="25dp"
+android:text="4th Step: Click on the New User tab."                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="25dp"
+                android:textColor="@color/white"
+android:text="5th Step: On the new screen, enter all the mandatory fields. Candidates who appear for their Class 12 examination must enter a 13-digit student number issued by the PUE department."                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+android:text="6th Step: Click on the Submit button."
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+android:text="7th Step: Now, the candidate will have to provide information such as their names, dates of birth, email ID, mobile number, security question, and security code and submit the details."                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+android:text="8th Step: After successful registration, the KCET registration number will be generated. The KCET application form number and User ID will be shared with the candidates on their registered email IDs and mobile numbers"                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:textSize="16dp"
+android:text="Candidates should keep this information safe with them. All further logins to the official website will take place with this set of credentials.">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:text="Stage 2 – Payment of KCET 2023 Application Fee"
+                android:textColor="@color/white"
+
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="10dp"
+                android:text="After filling in all the details in the KCET application form 2023, candidates need to pay the application fee. Candidates can pay their fees offline or in online mode through net banking/credit card/debit card. For the offline fee payment, candidates will have to download the e-challan and pay at the State Bank of India branches or ICICI Bank. Candidates must click on I agree and then click on Next to get to the application form fee payment page. Follow the below steps for fee payment:">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+                android:textSize="16dp"
+android:text="1st Step: Make the payment after downloading and taking the printout of the triplicate e-challan copy.">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+                android:textSize="16dp"
+android:text="2nd Step: The challan copy will comprise the candidate’s name, CET number, details of allotted college/course, amount, and bank account number. ">
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="25dp"
+                android:text="3rd Step: Candidates need to make payments only at specified banks."
+                android:textColor="@color/white"
+                android:textSize="16dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+                android:textSize="16dp"
+                android:text="4th Step: The bank will retain the bank’s copy and return the other two copies to the candidate. Furthermore, candidates are advised to reserve copies until they download the admit card.  ">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+                android:textSize="16dp"
+                android:text="Note: The banks designated by KEA for fee payment include Indian Bank, State Bank of India, and State Bank of Hyderabad. ">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="25dp"
+                android:textSize="16dp"
+android:text="If candidates cannot recall their application number, they should check their registered email address for it. If they are not able to find the application number in their inbox, they will have to contact the KCET official authorities at keauthority-ka@nic.in, or on the helpline number 080 – 23460460.">
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="17dp"
-            android:text="The KCET eligibility criteria state the parameters that every candidate needs to meet to apply for the examination. According to KEA, candidates must fall under the following boundary:
-
-Candidates must have passed the 2nd PUC/12th Standard/equivalent exam.
-Applicants must be Indian nationals.
-Those who are waiting for their Class 12/ PUC exam results can also apply for KCET 2023.
-Applicants who have passed their 12th standard or PUC or qualifying examination from Karnataka State Open University (KSOU) cannot appear for KCET 2023 exam.
-Applicants should have studied English, Physics, and Maths as their compulsory subjects in Class 12 and have Chemistry/Biology/Electronics/Biotechnology or Computer Science as an optional subject.
-B.E/B.Tech
-
-Candidates should have passed 10+2 or equivalent from the recognised board.
-Candidates should have Physics, Chemistry, Biology, and Mathematics.
-Candidates with a minimum of 45% (40% for SC/ST category candidates) score in PCMB subjects.
-B.Arch
-
-The candidate should have passed 10+2 or equivalent from the recognised board.
-Candidates who scored at least 50% (45% for minority categories) are eligible for the KCET examination.
-Candidates who had studied Mathematics as a subject.
-Candidates should have a valid scorecard.
-B.V. Sc. A.H
-
-Candidates who have passed 10+2 Intermediate exam from a recognised board.
-Candidates have scored 50% (45% score for reserved categories).
-Must have Physics, Chemistry, and Biology in the qualifying exam.
-KCET Application Form: Documents Required
-Applicants should keep some documents handy before filling out the KCET 2023 application form. The required documents for KCET application 2023 are as follows:
-
-Valid mobile number and email ID
-Debit card/Credit card/Net banking details
-Details of Aadhaar card
-Scanned images of signature, photograph, and left-hand thumb impression as per specifications by the authority
-Scanned images of the applicant’s parent’s left thumb impression/signature
-Educational qualification documents (Class 10th and 12th mark sheets)"
 
             >
 
-        </TextView>
-    </RelativeLayout>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="kcet"
+            android:padding="10dp"
+            android:text="for more details"
+            android:layout_marginLeft="130dp"
+            android:textAllCaps="true"
+            tools:ignore="OnClick">
 
 
+        </Button>
 
 
-
-
-
-
-</ScrollView>
+    </LinearLayout>
+    </ScrollView>
