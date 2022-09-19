@@ -58,8 +58,6 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-
-        //textView.setText( fullName + "  Welcome !");
         ImageView colle = findViewById(R.id.person);
         colle.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +94,16 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), Instructions.class);
+                startActivity(intent1);
+                finish();
+            }
+        });
+
+        Button colleBTN1 = findViewById(R.id.videos);
+        colleBTN1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(getApplicationContext(), subjects1.class);
                 startActivity(intent1);
                 finish();
             }
