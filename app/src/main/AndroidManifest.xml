@@ -12,47 +12,69 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".requiredDocuments"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
             android:name=".puc"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".videotopics"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".subjects1"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".predictor"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".Instructions"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".details"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".webview"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".subjects"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".prev"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".Rank_Predict"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".collegeList"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
+            android:screenOrientation="portrait"
             android:exported="false" />
-        <activity android:name=".EditProfile" />
-        <activity android:name=".Login" />
-        <activity android:name=".Register">
+        <activity android:name=".EditProfile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

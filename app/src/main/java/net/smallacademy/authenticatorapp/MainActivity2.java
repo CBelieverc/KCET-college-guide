@@ -117,6 +117,14 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button buttondoc = findViewById(R.id.d);
+        buttondoc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), requiredDocuments.class);
+                startActivity(intent);
+            }
+        });
         ImageView back_btn = findViewById(R.id.null1);
         back_btn.setOnClickListener(new View.OnClickListener() {
             @Override
