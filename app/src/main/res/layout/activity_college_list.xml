@@ -1418,7 +1418,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00ff0000"
-                        android:onClick="open19"
                         />
 
                     <TextView
@@ -1481,7 +1480,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#00ff0000"
-                        android:onClick="open20"
                         />
 
                     <TextView
