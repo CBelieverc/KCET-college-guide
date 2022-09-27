@@ -7,15 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class puc extends AppCompatActivity {
+public class puc1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_puc);
+        setContentView(R.layout.activity_puc1);
     }
     public void openactivity_t1(View view){
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         String s1 = getIntent().getStringExtra("subject1");
         if(s1.contentEquals("Mathematics")){
             Intent intent = new Intent(this, videotopics.class);
@@ -100,7 +99,6 @@ public class puc extends AppCompatActivity {
 
     }
     public void openactivity_t2(View view){
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         String s1 = getIntent().getStringExtra("subject1");
         if(s1.contentEquals("Mathematics")){
             Intent intent = new Intent(this, videotopics.class);

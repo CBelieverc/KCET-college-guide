@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back31_"
-    tools:context=".puc">
+    tools:context=".puc1">
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -51,6 +51,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/btn_bg"
             android:padding="15dp"
+            android:onClick="openactivity_t1"
             android:text="First Year puc"
             android:textSize="22sp"
             app:backgroundTint="@color/colorWhite"
@@ -64,6 +65,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/btn_bg"
             android:padding="15dp"
+            android:onClick="openactivity_t2"
             android:text="Second Year PUC"
             android:textSize="22sp"
             app:backgroundTint="@color/colorWhite"

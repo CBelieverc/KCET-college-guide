@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.smallacademy.authenticatorapp">
+    package="net.smallacademy.authenticatorapp" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,16 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".puc1"
+            android:exported="false" />
         <activity
             android:name=".webview1"
             android:exported="false" />
         <activity
             android:name=".requiredDocuments"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".puc"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -79,7 +78,7 @@
         <activity
             android:name=".Register"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

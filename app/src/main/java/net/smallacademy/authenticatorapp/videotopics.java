@@ -18,7 +18,7 @@ public class videotopics extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_videotopics);
         textView=findViewById(R.id.heading);
-        //button1=findViewById(R.id.button_t1);
+        button1=findViewById(R.id.button_t1);
         button2=findViewById(R.id.button_t2);
         button3=findViewById(R.id.button_t3);
         button4=findViewById(R.id.button_t4);
