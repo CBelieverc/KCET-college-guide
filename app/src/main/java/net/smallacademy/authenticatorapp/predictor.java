@@ -32,7 +32,7 @@ public class predictor extends AppCompatActivity {
         webview.loadUrl("https://www.inspirenignite.com/kcet-cutoff-closing-ranks-and-college-predictor/");
 
     }
-    private class MyBrowser extends WebViewClient {
+    class MyBrowser extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             view.loadUrl(url);
