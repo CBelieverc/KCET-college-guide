@@ -10,6 +10,7 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +23,7 @@ public class predictor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_predictor);
         AdBlocker.init(this);
+
 
         webview=(WebView)findViewById(R.id.web1);
         webview.setWebViewClient(new MyBrowser());
@@ -54,4 +56,14 @@ public class predictor extends AppCompatActivity {
                     super.shouldInterceptRequest(view, url);
         }
     }
+    @Override
+    public void onBackPressed() {
+
+        if (webview.canGoBack()) {
+            webview.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
 }

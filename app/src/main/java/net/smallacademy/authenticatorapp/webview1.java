@@ -55,4 +55,13 @@ public class webview1 extends AppCompatActivity {
                     super.shouldInterceptRequest(view, url);
         }
     }
+    @Override
+    public void onBackPressed() {
+
+        if (webview.canGoBack()) {
+            webview.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
 }

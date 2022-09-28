@@ -332,10 +332,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="100dp"
+                        android:onClick="open3"
                         android:text="College Website"
                         android:textColor="#13C51A"
-                        android:textSize="13dp"
-                        android:onClick="open7"/>
+                        android:textSize="13dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
