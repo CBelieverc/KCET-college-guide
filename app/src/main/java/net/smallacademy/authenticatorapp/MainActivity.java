@@ -34,9 +34,13 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
+import net.smallacademy.authenticatorapp.databinding.ActivityMain2Binding;
+import net.smallacademy.authenticatorapp.databinding.ActivityMainBinding;
+
 import javax.annotation.Nullable;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends DrawerBaseActivity {
+    ActivityMainBinding activityMainBinding;
     private static final int GALLERY_INTENT_CODE = 1023 ;
     TextView fullName,email,phone,verifyMsg;
     FirebaseAuth fAuth;
@@ -52,7 +56,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        activityMainBinding =ActivityMainBinding.inflate(getLayoutInflater());
+
+        setContentView(activityMainBinding.getRoot());
+        allocateActivityTitle("MainPage");
         phone = findViewById(R.id.profilePhone);
         fullName = findViewById(R.id.profileName);
         email    = findViewById(R.id.profileEmail);

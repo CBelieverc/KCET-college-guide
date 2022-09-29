@@ -26,10 +26,13 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
+import net.smallacademy.authenticatorapp.databinding.ActivityEditProfileBinding;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class EditProfile extends AppCompatActivity {
+public class EditProfile extends DrawerBaseActivity {
+    ActivityEditProfileBinding activityEditProfileBinding;
 
     public static final String TAG = "TAG";
     EditText profileFullName,profileEmail,profilePhone;
@@ -43,7 +46,10 @@ public class EditProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_profile);
+        activityEditProfileBinding =ActivityEditProfileBinding.inflate(getLayoutInflater());
+
+        setContentView(activityEditProfileBinding.getRoot());
+        allocateActivityTitle("EditProfile");
 
         Intent data = getIntent();
         final String fullName = data.getStringExtra("fullName");

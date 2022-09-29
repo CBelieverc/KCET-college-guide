@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerBaseActivity"
+            android:exported="false" />
+        <activity
             android:name=".webview1"
             android:exported="false" />
         <activity

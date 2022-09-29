@@ -2,6 +2,7 @@ package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -23,10 +24,13 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import net.smallacademy.authenticatorapp.databinding.ActivityMain2Binding;
+
 import javax.annotation.Nullable;
 
-public class MainActivity2 extends AppCompatActivity {
-    //ActivityMainBinding binding
+public class MainActivity2 extends DrawerBaseActivity {
+    ActivityMain2Binding activityMain2Binding;
+
     private long pressedTime;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
@@ -37,13 +41,16 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        activityMain2Binding =ActivityMain2Binding.inflate( getLayoutInflater());
+        setContentView(activityMain2Binding.getRoot());
+        allocateActivityTitle("MainActivity2");
         final TextView textView=findViewById(R.id.welcome);
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
         userId = fAuth.getCurrentUser().getUid();
         user = fAuth.getCurrentUser();
+
 
         DocumentReference documentReference = fStore.collection("users").document(userId);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
