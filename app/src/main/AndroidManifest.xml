@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.smallacademy.authenticatorapp" >
+    package="net.smallacademy.authenticatorapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".wonactivity"
+            android:exported="false" />
+        <activity
+            android:name=".mockquestions"
+            android:exported="false" />
+        <activity
+            android:name=".mocksplash"
+            android:exported="false" />
+        <activity
+            android:name=".mock2"
+            android:exported="false" />
+        <activity
+            android:name=".mocksubjects"
+            android:exported="false" />
         <activity
             android:name=".puc1"
             android:exported="false" />
@@ -78,7 +93,7 @@
         <activity
             android:name=".Register"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

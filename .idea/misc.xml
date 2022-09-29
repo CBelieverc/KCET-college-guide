@@ -19,13 +19,18 @@
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/menu/menu.xml" value="0.1" />
         <entry key="..\:/proj_16_3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1295" />
         <entry key="..\:/proj_16_3/app/src/main/res/drawable-v24/next_btn_shape.xml" value="0.1" />
+        <entry key="..\:/proj_16_3/app/src/main/res/drawable-v24/share_shape.xml" value="0.1315" />
         <entry key="..\:/proj_16_3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1295" />
-        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_college_list.xml" value="0.536" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_college_list.xml" value="0.43944636678200694" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_instructions.xml" value="0.17708333333333334" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_main2.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mock2.xml" value="0.20863616930312098" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mockquestions.xml" value="0.19709277469003847" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocksplash.xml" value="0.20863616930312098" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocksubjects.xml" value="0.20863616930312098" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocktest1.xml" value="0.22826086956521738" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocktest2.xml" value="0.22826086956521738" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocktest3.xml" value="0.22826086956521738" />
@@ -37,6 +42,7 @@
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_rank_predict.xml" value="0.17708333333333334" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_required_documents.xml" value="0.22826086956521738" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_splash.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_start.xml" value="0.20863616930312098" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_subjects.xml" value="0.17708333333333334" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_subjects1.xml" value="0.24547101449275363" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_videoplayer.xml" value="0.22826086956521738" />
@@ -44,6 +50,7 @@
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_videotopics.xml" value="0.24547101449275363" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_webview.xml" value="0.17708333333333334" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_webview1.xml" value="0.20863616930312098" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_wonactivity.xml" value="0.19709277469003847" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_youplayer.xml" value="0.10677083333333333" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_youtube.xml" value="0.22826086956521738" />
         <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_youtubeplayer.xml" value="0.22826086956521738" />

@@ -134,6 +134,14 @@ public class MainActivity2 extends AppCompatActivity {
                 finish();
             }
         });
+        Button buttonmock = findViewById(R.id.mocktest);
+        buttonmock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), mocksubjects.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

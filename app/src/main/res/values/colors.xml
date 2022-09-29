@@ -13,4 +13,6 @@
     <color name="colorRed">#C11515</color>
     <color name="back">#363E40</color>
     <color name="background">#666D73</color>
+    <color name="Green">#66cc99</color>
+    <color name="Red">#FFC50A0A</color>
 </resources>
