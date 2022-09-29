@@ -70,6 +70,15 @@ public class videotopics extends AppCompatActivity {
         String t15 = getIntent().getStringExtra("topic15");
         button15.setText(t15);
 
+        TextView button1 = findViewById(R.id.button_t1);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), videoplayer.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
